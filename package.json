@@ -1,0 +1,28 @@
+{
+  "name": "serverless-knative",
+  "version": "0.1.0",
+  "description": "Serverless knative plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rootfs/serverless-knative.git"
+  },
+  "keywords": [
+    "serverless",
+    "knative"
+  ],
+  "author": "hchen@redhat.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rootfs/serverless-knative/issues"
+  },
+  "homepage": "https://github.com/rootfs/serverless-knative#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "kubernetes-client": "^8.2.0",
+    "lodash": "^4.17.11"
+  }
+}
