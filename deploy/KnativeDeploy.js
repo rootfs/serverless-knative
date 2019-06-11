@@ -10,11 +10,12 @@ class KnativeDeploy {
 
     this.hooks = {
       'deploy:deploy': () => BbPromise.bind(this)
-        .then(this.deployServingService),
+        .then(this.deployServingService)
+        .then(() => this.serverless.cli.log('successfully deployed Knative serving service')),
     };
   }
 
-  deploydeployServingService() {
+  deployServingService() {
   }
 }
 

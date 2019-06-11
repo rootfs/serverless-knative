@@ -21,8 +21,8 @@
   },
   "homepage": "https://github.com/rootfs/serverless-knative#readme",
   "dependencies": {
-    "chalk": "^2.4.2",
-    "kubernetes-client": "^8.2.0",
-    "lodash": "^4.17.11"
+    "@kubernetes/client-node": "^0.10.0",
+    "bluebird": "^3.5.5",
+    "chalk": "^2.4.2"
   }
 }
